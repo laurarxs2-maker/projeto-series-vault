@@ -5,10 +5,10 @@
 }
 
 :root {
-    --primary-color: #000000f5;
-    --secondary-color: #020202;
-    --tertiary-color: #281749;
-    --bg-color: #d18a9c;
+    --primary-color: #cae5e4f5; 
+    --secondary-color: #251616; 
+    --tertiary-color: #281749; 
+    --bg-color: #9d1839; 
 }
 
 body {
@@ -16,6 +16,7 @@ body {
     background: var(--bg-color); /* Define a cor de fundo usando uma variável */
     color: var(--secondary-color); /* Define a cor do texto padrão usando uma variável */
     font-family: "Quicksand", sans-serif; /* Define a família da fonte */
+    font-weight: bold
 }
 
 header {
@@ -237,5 +238,4 @@ article a:hover {
     button { /* Estilos para o botão em telas muito pequenas */
         margin-top: 1rem; /* Adiciona margem no topo */
     }
-
 }
