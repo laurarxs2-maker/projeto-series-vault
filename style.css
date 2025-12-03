@@ -5,10 +5,10 @@
 }
 
 :root {
-    --primary-color: #214d5ba2; /* Cor primária (azul claro) */
-    --secondary-color: #020202; /* Cor secundária (cinza claro) */
-    --tertiary-color: #281749; /* Cor terciária (cinza médio) */
-    --bg-color: #c7c2e2; /* Cor de fundo (cinza escuro) */
+    --primary-color: #000000f5;
+    --secondary-color: #020202;
+    --tertiary-color: #281749;
+    --bg-color: #d18a9c;
 }
 
 body {
@@ -237,4 +237,5 @@ article a:hover {
     button { /* Estilos para o botão em telas muito pequenas */
         margin-top: 1rem; /* Adiciona margem no topo */
     }
+
 }
